@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <body background="assets/images/christmas-background-with-glitter-sparkle-and-bokeh-lights-67.png"></body>
+    <div id="content">
+        <h1>Totally Trivial Trivia!</h1>
+        <button class="btn btn-success" id="start">Start Game</button><br>
+        <form id="game" name="quiz">
+
+            <p id=“question1”>What Year was Microsoft established?</p>
+            <input type="radio" name="year" value="1970"> 1970<br>
+            <input type="radio" name="year" value="1973"> 1973<br>
+            <input type="radio" name="year" value="1975"> 1975<br>
+
+            <p id="question2">Which city is known as the "City of Love"</p>
+            <input type="radio" name="place" value="Berlin"> Berlin<br>
+            <input type="radio" name="place" value="Paris"> Paris<br>
+            <input type="radio" name="place" value="Madrid"> Madrid<br>
+
+            <button class="btn btn-primary" id="submit">Done</button>
+
+        </form>
+    </div>
+        <div>
+            <span id="timer">
+                <span id="seconds">Time Remaining:</span> Seconds
+            </span>
+        </div>
+        
+
+        <p id="result"></p>
+        <p id="allDone"></p>
+        <p id="numberCorrect"></p>
+        <p id="numberIncorrect"></p>
+        <p id="unanswered"></p>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</body>
+
+</html>
